@@ -62,3 +62,13 @@ When creating a route component, entire history object is given, ideally give fu
  1. Component 
  2. Render method (can pass props to component) only render if route matches 
  3. Children props - routes match and doesnt match
+
+
+## Dependencies 
+```
+npm install react-router react-router-dom 
+```
+or 
+``` 
+yarn add react-router react-router-dom
+```
