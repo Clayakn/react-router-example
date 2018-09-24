@@ -48,5 +48,17 @@ Another solution is using Switch
 Switch only allows one path to be rended at a time, / is put last so that if other paths do not match the url given then / will catch all urls given 
 
 ### Problem 2 
-**Nesting Routes**
+**Async**
+Solution: React Suspense, allows any tree in hierarchy to suspense rendering
+Home component wouldn't render until child components resolves 
 
+### Problem 3
+**History API**
+When creating a route component, entire history object is given, ideally give functions that needed such as push, replace, go from history
+
+
+## Additional Notes 
+3 Different ways to render components through routes 
+ 1. Component 
+ 2. Render method (can pass props to component) only render if route matches 
+ 3. Children props - routes match and doesnt match
